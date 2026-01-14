@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ARC Raiders Fan Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: #e6e6e6;
+    }
+
+    header {
+      background: #1c1c1c;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #f2b705;
+    }
+
+    h1 {
+      color: #f2b705;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .item {
+      background: #1c1c1c;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-left: 4px solid #f2b705;
+    }
+
+    button {
+      background: #f2b705;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #aaa;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ARC Raiders Fan Market</h1>
+  <p>Fan-made project</p>
+</header>
+
+<main>
+  <div class="item">
+    <h3>Workbench Level 2</h3>
+    <p>Unlocks advanced crafting</p>
+    <p><strong>$20</strong></p>
+    <button>Add to cart</button>
+  </div>
+
+  <div class="item">
+    <h3>Rooster Level 2</h3>
+    <p>Better raid rewards</p>
+    <p><strong>$15</strong></p>
+    <button>Add to cart</button>
+  </div>
+</main>
+
+<footer>
+  This is an unofficial fan-made project. Not affiliated with ARC Raiders or Embark Studios.
+</footer>
+
+</body>
+</html>
